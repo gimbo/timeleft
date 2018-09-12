@@ -68,15 +68,17 @@ typedef enum iTunesESrA iTunesESrA;
 
 enum iTunesESpK {
 	iTunesESpKNone = 'kNon',
-	iTunesESpKAudiobooks = 'kSpA',
+	iTunesESpKBooks = 'kSpA',
 	iTunesESpKFolder = 'kSpF',
+	iTunesESpKGenius = 'kSpG',
+	iTunesESpKITunesU = 'kSpU',
+	iTunesESpKLibrary = 'kSpL',
 	iTunesESpKMovies = 'kSpI',
 	iTunesESpKMusic = 'kSpZ',
 	iTunesESpKPartyShuffle = 'kSpS',
 	iTunesESpKPodcasts = 'kSpP',
 	iTunesESpKPurchasedMusic = 'kSpM',
-	iTunesESpKTVShows = 'kSpT',
-	iTunesESpKVideos = 'kSpV'
+	iTunesESpKTVShows = 'kSpT'
 };
 typedef enum iTunesESpK iTunesESpK;
 
